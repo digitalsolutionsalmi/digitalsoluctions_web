@@ -1,0 +1,188 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Momo Trust Display", sans-serif;
+}
+body
+{
+    background-color: rgb(245, 250, 253);
+    padding-top: 75px
+}
+header
+{
+    width: 100%;
+}
+
+#primeraFila
+{
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 70px;
+    position: fixed;
+    width: 99%;
+    z-index: 100;
+    border-bottom: 1px gray solid;
+}
+
+.activo
+{
+    background-color: #78aeff;
+}
+
+.title
+{
+    display: flex;
+    text-decoration: none;
+    color: #538fe9;
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: black 1px;
+}
+.title img
+{
+    border-radius: 10px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.menu1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu1 .boton_presupuesto
+{
+    background-color: #6ba6ff;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.menu1 li
+{
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu1 a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #4689ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items_foot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    width: 95%;
+}
+
+.foot1
+{
+    display: flex;
+    flex-direction: column;
+    color: #538fe9;
+    font-size: 25px;
+    align-items: flex-start;
+    width: 25%;
+}
+.foot1 div img
+{
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: black 1px 1px 7px;
+}
+.foot1 > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.foot1 h1
+{
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+.foot1 p
+{
+    color: rgba(31, 31, 31, 0.726);
+    font-size: 17px;
+}
+
+.menu_foot
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu_foot li
+{
+    list-style: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu_foot a
+{
+    text-decoration: none;
+    color: rgba(31, 31, 31, 0.726);
+}
+
+.foot3
+{
+    display: flex;
+    flex-direction: column;
+}
+.foot3 a
+{
+    text-decoration: none;
+    color: rgba(31, 31, 31, 0.726);
+}
+.ultima_linea
+{
+    text-align: center;
+    width: 70%;
+}
+.ultima_linea hr
+{
+    background-color: black;
+    border: none;
+    height: 1px;
+}
+.ultima_linea p
+{
+    margin: 8px;
+}
