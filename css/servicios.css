@@ -1,0 +1,53 @@
+body
+{
+    background-color: #f6f6f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    font-size: 35px;
+}
+main > div
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.servicio
+{
+    background-color: #d1e3ff;
+    width: 35%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.5px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.4s;
+}
+img
+{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10px;
+}
+.servicio:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 5px rgb(70, 70, 70);
+}
+
+h2
+{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
