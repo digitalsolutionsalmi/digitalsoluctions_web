@@ -1,0 +1,102 @@
+main >h1
+{
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+h2
+{
+    margin-bottom: 10px;
+}
+
+main > div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+}
+.formulario
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 45px;
+    height: fit-content;
+}
+.formulario h3
+{
+    margin-bottom: 4px;
+}
+.formulario input
+{
+    margin-bottom: 10px;
+}
+.formulario > div 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 45px;
+    align-items: center;
+    height: fit-content;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.detail
+{
+    display: flex;
+    flex-direction: row;
+    margin: 6px;
+    align-items: center;
+}
+.detail > div
+{
+    display: flex;
+    flex-direction: column;
+}
+.detail img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+iframe
+{
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+input
+{
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+textarea
+{
+    margin-bottom: 20px;
+}
+input[type="button"]
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+.formulario > div input
+{
+    width: 280px;
+}
