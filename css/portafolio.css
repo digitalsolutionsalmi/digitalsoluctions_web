@@ -11,8 +11,9 @@ main > div
     align-items: center;
     justify-content: center;
 }
-h1
+main > h1
 {
+    text-align: center;
     margin-top: 25px;
     font-size: 35px;
     margin-bottom: 20px;
