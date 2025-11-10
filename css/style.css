@@ -6,14 +6,23 @@
 }
 body
 {
-    background-color: rgb(245, 250, 253);
-    padding-top: 75px
+    background-color: #f6f6f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header
 {
     width: 100%;
 }
-
+main
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #primeraFila
 {
     top: 0;
@@ -28,6 +37,7 @@ header
     width: 99%;
     z-index: 100;
     border-bottom: 1px gray solid;
+    background-color: #f6f6f8;
 }
 
 .activo
@@ -87,10 +97,8 @@ header
 
 footer
 {
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    background-color: #4689ee;
+    background-color: #649CEFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
