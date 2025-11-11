@@ -40,6 +40,12 @@ main
     background-color: #f6f6f8;
 }
 
+#primeraFila > div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .activo
 {
     background-color: #78aeff;
@@ -193,4 +199,10 @@ footer
 .ultima_linea p
 {
     margin: 8px;
+}
+
+.traduccion{
+    display: flex;
+    height: 40px;
+    margin-left: 50px;
 }
