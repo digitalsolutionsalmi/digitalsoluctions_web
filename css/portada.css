@@ -19,11 +19,59 @@ main
     border-radius: 15px;
     padding: 70px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: inicio_box 2s ease 0s 1 normal forwards;
+}
+@keyframes inicio_box {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }
 
 .main_box  h1
 {
-    font-size: 70px
+    font-size: 75px
 }
 .main_box p
 {
@@ -54,12 +102,13 @@ main
     margin-right: 50px;
     align-items: center;
 }
-.lin1 > p
+.lin1 > a
 {
     background-color: #6ba6ff;
     padding: 10px;
     border-radius: 10px;
     color: white;
+    text-decoration: none;
 }
 .lin2
 {
@@ -76,8 +125,14 @@ main
     border-radius: 15px;
     width: 30%;
     padding: 15px;
-    border: 1px rgb(56, 56, 56) dashed;
+    border: 2px rgb(56, 56, 56) dashed;
+    transition: border 0.4s linear;
 }
+.lin2 > div:hover
+{
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
 .lin2 img
 {
     max-width: 450px;
@@ -145,9 +200,41 @@ h2
     border: 1px solid black;
     padding: 25px;
 }
+.client:hover
+{
+    animation: myAnim 2s ease 1 normal forwards;
+}
 .client p
 {
     margin-bottom: 8px;
     font-style: italic;
     color: rgb(104, 104, 104);
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
 }

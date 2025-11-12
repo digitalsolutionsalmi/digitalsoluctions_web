@@ -6,7 +6,7 @@ body
     flex-direction: column;
 }
 
-h1
+main > h1
 {
     font-size: 35px;
 }
@@ -34,7 +34,7 @@ main > div
     justify-content: center;
     transition: 0.4s;
 }
-img
+main img
 {
     height: 35px;
     width: 35px;
