@@ -6,6 +6,7 @@
           	<img src="https://img.shields.io/github/license/digitalsolutionsalmi/digitalsoluctions_web?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
           	<img src="https://img.shields.io/github/last-commit/digitalsolutionsalmi/digitalsoluctions_web?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
           	<img src="https://img.shields.io/github/languages/top/digitalsolutionsalmi/digitalsoluctions_web?style=default&color=0080ff" alt="repo-top-language">
+            <img src="https://img.shields.io/github/languages/count/digitalsolutionsalmi/digitalsoluctions_web?style=default&color=0080ff" alt="repo-language-count">
         </p>
         <p>Construido con las herramientas y tecnologías:</p>
         <p>
