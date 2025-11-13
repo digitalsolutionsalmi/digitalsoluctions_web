@@ -4,6 +4,10 @@
     padding: 0px;
     font-family: "Momo Trust Display", sans-serif;
 }
+html
+{
+    overflow-y: scroll;
+}
 body
 {
     background-color: #f6f6f8;
@@ -34,10 +38,11 @@ main
     padding-right: 25px;
     height: 70px;
     position: fixed;
-    width: 99%;
+    width: 100%;
     z-index: 100;
     border-bottom: 1px gray solid;
     background-color: #f6f6f8;
+    box-sizing: border-box;
 }
 
 #primeraFila > div
@@ -76,7 +81,7 @@ main
     align-items: center;
     gap: 50px;
 }
-
+/*
 .boton_presupuesto
 {
     background-color: #6ba6ff;
@@ -88,7 +93,7 @@ main
 .boton_presupuesto:hover
 {
     box-shadow: 0px 0px 25px 4px #497fcf;
-}
+}*/
 
 .menu1 li
 {
@@ -206,7 +211,8 @@ footer
     margin: 8px;
 }
 
-.traduccion{
+.traduccion
+{
     display: flex;
     height: 40px;
     margin-left: 50px;
