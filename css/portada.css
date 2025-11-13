@@ -126,7 +126,7 @@ main
     width: 30%;
     padding: 15px;
     border: 2px rgb(56, 56, 56) dashed;
-    transition: border 0.4s linear;
+    transition: border 1s linear;
 }
 .lin2 > div:hover
 {
@@ -138,7 +138,7 @@ main
     max-width: 450px;
     max-height: 300px;
 }
-h2
+main h2
 {
     font-size: 35px;
 }
